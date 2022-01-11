@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('../Main/Pic/bbb.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  color: #ddd;
+}
+
+.topnav {
+  overflow: hidden; 
+  background-color: #333;
+  opacity: 0.6;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.loginComp {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  top: 30%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -20%);
+  width: 46.5%;
+  height: 70%;
+  padding-top: 5%;
+  padding-left: 2%;
+}
+
+.pTable {
+  margin-left: 35%
+}
+
+.main input[type="button"] {
+  border: none;
+  color: whitesmoke;
+  border-bottom: 1.5px solid rgb(145, 52, 52);
+  border-top: 1.5px solid rgb(131, 68, 68);
+  background: transparent;
+  outline: none;
+  height: auto;
+  color: (54, 49, 49);
+  font-size: 20px;
+  padding-left: 50px;
+  margin-bottom: 50px;
+}
+.main input[type="button"]:hover {
+  cursor: pointer;
+  background: #ffffff;
+  color: #000;
+  transform: translate(-4%, -4%);
+  opacity: 0.6;
+}
